@@ -20,6 +20,10 @@ dotnet run
 ```
 
 ## MenuItem added as a UserControl rendered with extra character
+* _Consolonia_ Version="11.2.*-beta.*"
+* platform: _Linux Mint 21.2_
+* .NET 9.0.102
+
 ### Steps to reproduce
 1. run app
 
@@ -33,6 +37,10 @@ dotnet run
 
 
 ## MenuItem added as UserControl is always highlighted after being accessed
+* _Consolonia_ Version="11.2.*-beta.*"
+* platform: _Linux Mint 21.2_
+* .NET 9.0.102
+
 ### Steps to reproduce
 1. run app
 2. dropdown `UserControl` menu
