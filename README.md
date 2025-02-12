@@ -20,6 +20,9 @@ dotnet run
 ```
 
 ## MenuItem added as a UserControl rendered with extra character
+
+<details>
+
 * _Consolonia_ Version="11.2.*-beta.*"
 * platform: _Linux Mint 21.2_
 * .NET 9.0.102
@@ -27,16 +30,21 @@ dotnet run
 ### Steps to reproduce
 1. run app
 
-### Observed result
+**Observed result**
 * `UserControl` menu is rendered with a trailing `>` symbol
 * ![Screenshot01](docs/Screenshot01.png)
 * note that `UserControl` is rendered in control colour (grey)
 
-### Expected result
+**Expected result**
 * `UserControl` menu should be rendered without extra characters
+
+</details>
 
 
 ## MenuItem added as UserControl is always highlighted after being accessed
+
+<details>
+
 * _Consolonia_ Version="11.2.*-beta.*"
 * platform: _Linux Mint 21.2_
 * .NET 9.0.102
@@ -45,15 +53,22 @@ dotnet run
 1. run app
 2. dropdown `UserControl` menu
 3. dropdown `Normal` menu
+
+**Observed result**
 * ![Screenshot02](docs/Screenshot02.png)
 * `UserControl` menu is rendered in highlight colour (blue)
-4. tab away from `Normal` menu
-* ![Screenshot03](docs/Screenshot03.png)
-* `UserControl` menu is rendered in highlight colour (blue)
 
-### Observed result
+**Expected result**
+* `UserControl` menu should be rendered in control colour (grey)
+
+4. tab away from `Normal` menu
+
+**Observed result**
+* ![Screenshot03](docs/Screenshot03.png)
 * `UserControl` menu is always rendered in highlight colour (blue)
 
-### Expected result
+**Expected result**
 * `UserControl` menu should be rendered in control colour (grey) when not highlighted
+
+</details>
 
