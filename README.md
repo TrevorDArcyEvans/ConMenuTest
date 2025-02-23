@@ -72,3 +72,7 @@ dotnet run
 
 </details>
 
+
+## [Consolonia](https://github.com/jinek/Consolonia) repository
+* [[BUG] MenuItem added as a UserControl rendered with extra character](https://github.com/jinek/Consolonia/issues/291)
+* [[BUG] MenuItem added as UserControl is always highlighted after being accessed](https://github.com/jinek/Consolonia/issues/292)
